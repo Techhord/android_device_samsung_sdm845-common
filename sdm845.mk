@@ -31,8 +31,7 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0-service \
-    android.hardware.bluetooth@1.0-impl:64 \
-    audio.a2dp.default
+    android.hardware.bluetooth@1.0-impl:64
 
 # Fonts
 TARGET_INCLUDE_CUSTOM_FONTS := false
