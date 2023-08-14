@@ -117,5 +117,8 @@ PRODUCT_PACKAGES += \
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
-# Call proprietary blob setup
+# Wi-Fi
+PRODUCT_PACKAGES += \
+    WifiOverlay
+
 $(call inherit-product, vendor/samsung/sdm845-common/sdm845-common-vendor.mk)
